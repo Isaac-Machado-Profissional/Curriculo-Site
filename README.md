@@ -9,4 +9,6 @@ Para visualizar o site, acesse: [https://Isaac-Machado-Profissional.github.io/Cu
 ## Instalação
 Caso decida trabalhar com este repo localmente, aqui está o código a ser usado:
 1. Clone o repositório:
-```bash git clone https://github.com/Isaac-Machado-Profissional/Curriculo-Site.git
+```bash
+git clone https://github.com/Isaac-Machado-Profissional/Curriculo-Site.git
+```
