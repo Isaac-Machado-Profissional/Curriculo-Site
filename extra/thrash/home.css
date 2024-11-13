@@ -1,0 +1,102 @@
+/* Estilo para o header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+/* Estilo para o conteúdo do header */
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo para a imagem */
+.header-content img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Estilo para o contêiner do título */
+.title-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10;
+}
+
+.eu-container {
+
+    display: flex;
+    justify-content: center;
+}
+
+.eumainHome {
+
+    width: 500px;
+    height: 500px;
+
+}
+
+.eu-titulo {
+    display: center;
+    margin-left: 500px;
+}
+
+
+/* Estilo para o título */
+#Title1 {
+    margin: 0;
+    margin-top: 10px; /* Adiciona espaço acima do título */
+}
+
+/* Estilo para a idade */
+.idade {
+    margin: 0;
+    margin-top: 5px; /* Adiciona espaço acima da idade */
+    font-size: 12px; /* Tamanho pequeno para a idade */
+    color: gray; /* Cor cinza para a idade */
+}
+
+/* Estilo para o contêiner da barra de navegação */ 
+.nav-container { 
+    text-align: center;  /* Centraliza a barra de navegação */ 
+    width: 100%; /* Estilo para a barra de navegação */
+}
+
+#Navigation { 
+    display: inline-block; /* Define a largura automática do contêiner */ 
+    background-color: #f0f0f0; /* Cor de fundo */ 
+    border: 1px solid rgb(0, 174, 255); /* Borda fina azul */ 
+    border-radius: 50px; /* Torna o contêiner arredondado */ 
+    padding: 10px 20px; /* Espaçamento interno */
+    text-align: center;
+    margin: 0 auto; /* Centraliza o contêiner de navegação */
+}
+
+#Navigation ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centraliza os itens da lista */
+}
+
+#Navigation li {
+    margin-right: 10px;
+}
+
+#Navigation a {
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+    padding: 10px 20px; /* Adiciona espaçamento interno aos links */
+    border-radius: 50px; /* Torna os links arredondados desde o início */
+    transition: background-color 0.3s; /* Adiciona uma trans suave */
+}
+
+#Navigation a:hover {
+    background-color: #5430552f; /* Cor de fundo ao passar o mouse */
+    color: rgb(0, 174, 255);
+}
