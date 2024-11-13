@@ -3,7 +3,7 @@ Esse é o meu site-currículo, onde você pode visualizar minhas experiências, 
 atuais objetivos profissionais e entender as formas de entrar em contato comigo. 
 
 ## GITHub Pages
-Este site estará hospedado usando [GitHub Pages](https://pages.github.com/) 
+Este site estará hospedado usando [GitHub Pages](https://pages.github.com/)  
 Para visualizar o site, acesse: [https://Isaac-Machado-Profissional.github.io/Curriculo-Site](https://Isaac-Machado-Profissional.github.io/Curriculo-Site)
 
 ## Instalação
