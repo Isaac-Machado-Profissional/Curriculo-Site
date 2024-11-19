@@ -4,7 +4,8 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Isaac Machado",
   "email": "isaacmachado.profissional@gmail.com",
@@ -17,6 +18,7 @@
     "@babel/core": "^7.26.0",
     "@babel/preset-env": "^7.26.0",
     "babel-loader": "^9.2.1",
+    "gh-pages": "^6.2.0",
     "html-webpack-plugin": "^5.6.3",
     "webpack": "^5.96.1",
     "webpack-cli": "^5.1.4"

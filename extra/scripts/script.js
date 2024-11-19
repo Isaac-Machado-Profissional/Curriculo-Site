@@ -1,4 +1,4 @@
-// import SmoothScroll from "smooth-scroll"; 'isso não rodaria msm'
+import SmoothScroll from "smooth-scroll"; 
 
 const loadedContent = new Set();
 let loadedCount = 0;
