@@ -17,7 +17,7 @@ document.querySelectorAll('nav a').forEach(link => {
                 scrollToElement(targetElement.querySelector('h2') || targetElement);
             } else if (!loadedContent.has(targetId) && loadedCount < maxLoadCount) {
                 const additionalContent = document.getElementById('additional-content');
-                const htmlFile = `../../src/${targetId}.html`;
+                const htmlFile = `${targetId}.html`;
 
                 fetch(htmlFile)
                     .then(response => response.text())
@@ -54,7 +54,7 @@ document.addEventListener('scroll', function() {
             if (href.startsWith('#')) {
                 const targetId = href.substring(1);
                 if (!loadedContent.has(targetId) && loadedCount < maxLoadCount) {
-                    const htmlFile = `../../${targetId}.html`;
+                    const htmlFile = `${targetId}.html`;
 
                     fetch(htmlFile)
                         .then(response => response.text())
