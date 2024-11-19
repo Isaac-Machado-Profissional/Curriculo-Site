@@ -1,5 +1,4 @@
 // import SmoothScroll from "smooth-scroll"; 'isso não rodaria msm'
-<script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script>
 
 const loadedContent = new Set();
 let loadedCount = 0;
