@@ -1,3 +1,5 @@
+import SmoothScroll from "smooth-scroll";
+
 const loadedContent = new Set();
 let loadedCount = 0;
 const maxLoadCount = 4; // Changed from 5 to 4
@@ -14,7 +16,7 @@ document.querySelectorAll('nav a').forEach(link => {
                 scrollToElement(targetElement.querySelector('h2') || targetElement);
             } else if (!loadedContent.has(targetId) && loadedCount < maxLoadCount) {
                 const additionalContent = document.getElementById('additional-content');
-                const htmlFile = `../../${targetId}.html`;
+                const htmlFile = `../../src/${targetId}.html`;
 
                 fetch(htmlFile)
                     .then(response => response.text())
