@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     mode: 'development',
@@ -12,6 +13,28 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: '../../index.html',
     }),
+    new HtmlWebpackPlugin({
+      template: '../../about-me.html',
+      filename: 'about-me.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: '../../education.html',
+      filename: 'education.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: '../../knowledge.html',
+      filename: 'knowledge.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: '../../contact.html',
+      filename: 'contact.html',
+    }), 
+    new CopyWebpackPlugin({
+      patterns: [
+        {from: '../../images', to: 'images'}
+      ]
+    })
+
   ],
   module: {
     rules: [
