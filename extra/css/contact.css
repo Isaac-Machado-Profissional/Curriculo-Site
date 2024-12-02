@@ -1,0 +1,97 @@
+/* ---------- Grid */
+#contactgrid {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-gap: 10px;
+    margin-right: 100px;
+    place-items: center;
+}
+
+#local-icon {
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: -200px;
+}
+
+#email-icon {
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: -200px;
+}
+
+#phone-icon {
+    grid-column: 1;
+    grid-row: 3;
+    margin-left: -200px;
+}
+
+#github-icon {
+    grid-column: 1;
+    grid-row: 4;
+    margin-left: -200px;
+}
+
+.local-text {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+    margin-left: 200px;
+}
+
+.email-text {
+    grid-column: 1;
+    grid-row: 2;
+    align-self: center;
+    margin-left: 390px;
+}
+
+.phone-text {
+    grid-column: 1;
+    grid-row: 3;
+    align-self: center;
+    margin-left: 210px;
+    
+}
+
+.github-text {
+    grid-column: 1;
+    grid-row: 4;
+    align-self: center;
+    margin-left: 300px;
+}
+
+@media (max-width: 720px) {
+    #contactgrid {
+        grid-template-columns: 1fr; /* Ajusta a grade para uma coluna */
+        padding: 10px; /* Adiciona padding para melhor visualização */
+        margin-right: 50px;
+    }
+
+    #local-icon,
+    #email-icon,
+    #phone-icon,
+    #github-icon {
+        width: 50px; /* Ajusta a largura dos ícones */
+        margin-left: 0; /* Remove a margem esquerda */
+        justify-self: start; /* Alinha os ícones à esquerda */
+    }
+
+    .local-text {
+        font-size: 0.5rem; /* Ajusta o tamanho da fonte para textos */
+        margin-left: -240px;
+    }
+    .email-text {
+        font-size: 0.5rem; /* Ajusta o tamanho da fonte para textos */
+        margin-left: -120px
+    }
+    .phone-text {
+        font-size: 0.5rem; /* Ajusta o tamanho da fonte para textos */
+        margin-left: -190px;
+    }
+    .github-text {
+        font-size: 0.5rem; /* Ajusta o tamanho da fonte para textos */
+        margin-left: -100px;
+    }
+}
+

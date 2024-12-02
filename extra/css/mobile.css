@@ -1,0 +1,94 @@
+/* Estilos globais */
+
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 720px) {
+    body {
+        font-size: 0.875rem; /* Adjust the font size for mobile */
+        padding-top: 6.25rem; /* Adjust based on the height of the header */
+        width: 80%;
+        height: 80%;
+        margin: 20% auto;
+        
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title-container {
+        align-items: center;
+        text-align: center;
+    }
+
+    .eu-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .eumainHome {
+        width: 80%; /* Adjust the size for mobile */
+        height: auto;
+    }
+
+    .eu-titulo {
+        font-size: 1.5rem; /* Adjust the font size for mobile */
+        margin-top: 1.25rem;
+    }
+
+    .idade {
+        font-size: 0.875rem; /* Adjust the font size for mobile */
+    }
+
+    #Navigation ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #Navigation li {
+        margin-bottom: 0.625rem;
+    }
+
+    #techgrid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 columns */
+        grid-template-rows: repeat(2, 1fr); /* 2 rows */
+        grid-gap: 0.625rem;
+        margin: 0.625rem;
+        place-items: center;
+    }
+
+    #python-icon, #js-icon, #html5-icon, #css3-icon, #java-icon {
+        width: 6.25rem; /* Adjust the size for mobile */
+        height: auto;
+    }
+
+    .python-text, .js-text, .html5-text, .css3-text, .java-text {
+        font-size: 0.875rem; /* Adjust the font size for mobile */
+        font-weight: bold;
+        text-align: center; /* Center align text */
+    }
+
+    #articlegrid {
+        grid-template-columns: 1fr; /* Single column */
+        grid-template-rows: auto; /* Auto rows */
+    }
+
+    #secundarygrid {
+        grid-template-columns: 1fr; /* Single column */
+        grid-template-rows: auto; /* Auto rows */
+    }
+
+    .svg-container-main, .svg-container-main2, .svg-container-main3, .svg-container-mini {
+        width: 100%; /* Full width */
+        height: auto;
+    }
+
+    #ensinosuperior, #ensinomedio, #ensinofundamental {
+        font-size: 1rem; /* Adjust font size */
+        margin: 0.625rem; /* Adjust margin */
+    }
+}

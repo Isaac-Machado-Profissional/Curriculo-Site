@@ -11,21 +11,55 @@ body {
 }
 
 /* Redefine o tamanho das fontes de títulos para garantir uniformidade */
-h1 {
-    font-size: 2rem;  /* 32px */
-    margin: 0;
-}
 
 h2 {
-    font-size: 1.875rem;  /* 30px */
-    margin: 0;
+    font-size: 2rem; /*32px*/
+
 }
 
+h3 {
+    margin-left: 0px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem; 
+}
+
+p2 {
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+p3 {
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.0rem;
+}
 p {
     font-size: 1rem;  /* 16px */
     display: block;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+p4 {
+  font-family: "Raleway", sans-serif;
+}
+
+@media (max-width: 720px) {
+    h2 {
+        margin-top: 300px; /* Ajusta o espaçamento superior para dispositivos móveis */
+        text-align: left; /* Alinha os h2 à esquerda */
+        margin-left: -100px;
+    }
+    p {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
 }

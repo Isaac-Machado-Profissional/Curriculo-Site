@@ -34,10 +34,12 @@ header {
 }
 
 .eu-container {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    text-align: center;
+
 }
 
 .eumainHome {
@@ -47,14 +49,12 @@ header {
     box-shadow: 0 0 10px 5px rgba(23, 0, 128, 0.5);
     border-radius: 25%;
     margin-bottom: 50px;
-    margin-top: -30px;
 }
 
 .eu-titulo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 190px;
+    margin-bottom: 100px;
+    text-align: center;
 }
 
 /* Estilo para o título */
@@ -118,3 +118,25 @@ header {
     background-color: #5430552f; /* Cor de fundo ao passar o mouse */
     color: rgb(0, 174, 255);
 }
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 720px) {
+    .eu-container {
+        margin-top: 100px; /* Adiciona margem superior de 100px no corpo */
+        flex-direction: column;
+    }
+    .eu-mainHome {
+        margin-top: 180px;
+        width: 80px;
+        height: 50px;
+    }
+
+    .eu-titulo {
+        margin-top: -300px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: bold;
+    }
+
+}
+
