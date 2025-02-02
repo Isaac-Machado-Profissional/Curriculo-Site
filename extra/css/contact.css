@@ -79,19 +79,20 @@
 
     .local-text {
         font-size: 0.5rem; /* Ajusta o tamanho da fonte para textos */
-        margin-left: -240px;
+        margin-left: -60px;
     }
     .email-text {
         font-size: 0.5rem; /* Ajusta o tamanho da fonte para textos */
-        margin-left: -120px
+        margin-left: 60px
     }
     .phone-text {
         font-size: 0.5rem; /* Ajusta o tamanho da fonte para textos */
-        margin-left: -190px;
+        margin-left: -14px;
     }
     .github-text {
         font-size: 0.5rem; /* Ajusta o tamanho da fonte para textos */
-        margin-left: -100px;
+        margin-left: 60px;
+        text-align: left
     }
 }
 

@@ -1,8 +1,8 @@
 /* ---------- Grid */
 #techgrid {
     display: grid;
-    grid-template-columns: repeat(5, 250px);
-    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(2, auto);
     grid-gap: 10px;
     margin: 10px;
     place-items: center;
@@ -13,35 +13,34 @@
     grid-row: 1;
     width: 200px;
     height: auto;
-
 }
+
 #js-icon {
     grid-column: 2;
     grid-row: 1;
     width: 200px;
     height: auto;
-
 }
+
 #html5-icon {
     grid-column: 3;
     grid-row: 1;
     width: 200px;
     height: auto;
-
 }
+
 #css3-icon {
-    grid-column: 4;
-    grid-row: 1;
+    grid-column: 1;
+    grid-row: 2;
     width: 200px;
     height: auto;
-
 }
+
 #java-icon {
-    grid-column: 5;
-    grid-row: 1;
+    grid-column: 2;
+    grid-row: 2;
     width: 200px;
     height: auto;
-
 }
 
 /*----- Texto */
@@ -52,37 +51,37 @@
     font-size: 16px;
     font-weight: bold;
 }
+
 .js-text {
     grid-column: 2;
     grid-row: 1;
     align-self: end;
     font-size: 16px;
-    font-weight: bold;  
-
+    font-weight: bold;
 }
+
 .html5-text {
     grid-column: 3;
     grid-row: 1;
     align-self: end;
     font-size: 16px;
     font-weight: bold;
-
 }
+
 .css3-text {
-    grid-column: 4;
-    grid-row: 1;
+    grid-column: 1;
+    grid-row: 2;
     align-self: end;
     font-size: 16px;
     font-weight: bold;
-
 }
-.java-text {
-    grid-column: 5;
-    grid-row: 1;
-    align-self: end;
-        font-size: 16px;
-    font-weight: bold;
 
+.java-text {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: end;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 @media (max-width: 720px) {
@@ -130,7 +129,6 @@
     .css3-text {
         grid-column: 1;
         grid-row: 2;
-
     }
 
     .java-text {
@@ -144,4 +142,3 @@
         text-align: center; /* Center align text */
     }
 }
-
