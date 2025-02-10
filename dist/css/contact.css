@@ -1,0 +1,115 @@
+/* ---------- Grid */
+#contactgrid {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-gap: 10px;
+    margin-right: 100px;
+    place-items: center;
+}
+
+#local-icon {
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: -200px;
+}
+
+#email-icon {
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: -200px;
+}
+
+#phone-icon {
+    grid-column: 1;
+    grid-row: 3;
+    margin-left: -200px;
+}
+
+#github-icon {
+    grid-column: 1;
+    grid-row: 4;
+    margin-left: -200px;
+}
+
+.local-text {
+    transform: translateY(50%);
+    grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+    margin-left: 350px;
+    white-space: nowrap; /* Impede a quebra de linha */
+    overflow: hidden;      /* Oculta qualquer transbordamento de conteúdo */
+    text-overflow: ellipsis; /* Adiciona reticências ao final do texto */
+}
+
+.email-text {
+    transform: translateY(50%);
+    grid-column: 1;
+    grid-row: 2;
+    align-self: center;
+    margin-left: 430px;
+    white-space: nowrap; /* Impede a quebra de linha */
+    overflow: hidden;      /* Oculta qualquer transbordamento de conteúdo */
+    text-overflow: ellipsis; /* Adiciona reticências ao final do texto */
+}
+
+.phone-text {
+    transform: translateY(50%);
+    grid-column: 1;
+    grid-row: 3;
+    align-self: center;
+    margin-left: 330px;
+    white-space: nowrap; /* Impede a quebra de linha */
+    overflow: hidden;      /* Oculta qualquer transbordamento de conteúdo */
+    text-overflow: ellipsis; /* Adiciona reticências ao final do texto */
+    
+}
+
+.github-text {
+    transform: translateY(50%);
+    grid-column: 1;
+    grid-row: 4;
+    align-self: center;
+    margin-left: 505px;
+    white-space: nowrap; /* Impede a quebra de linha */
+    overflow: hidden;      /* Oculta qualquer transbordamento de conteúdo */
+    text-overflow: ellipsis; /* Adiciona reticências ao final do texto */
+}
+
+@media (max-width: 720px) {
+    #contactgrid {
+        grid-template-columns: 1fr; /* Ajusta a grade para uma coluna */
+        padding: 10px; /* Adiciona padding para melhor visualização */
+        margin-right: 50px;
+    }
+
+    #local-icon,
+    #email-icon,
+    #phone-icon,
+    #github-icon {
+        width: 50px; /* Ajusta a largura dos ícones */
+        margin-left: 0; /* Remove a margem esquerda */
+        justify-self: start; /* Alinha os ícones à esquerda */
+    }
+
+    .local-text {
+        font-size: 1.20vh; /* Ajusta o tamanho da fonte para textos */
+        margin-left: 50px;
+    }
+    .email-text {
+        font-size: 1.20vh; /* Ajusta o tamanho da fonte para textos */
+        margin-left: 110px;
+    }
+    .phone-text {
+
+        font-size: 1.20vh; /* Ajusta o tamanho da fonte para textos */
+        margin-left: 50px;
+    }
+    .github-text {
+
+        font-size: 1.20vh; /* Ajusta o tamanho da fonte para textos */
+        margin-left: 165px;
+    }
+}
+

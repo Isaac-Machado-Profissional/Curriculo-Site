@@ -1,0 +1,32 @@
+.SobreMim h2 {
+    display: flex;
+    margin-top: 200px;
+    padding: 20px;
+    margin-left: 120px;
+}
+
+.Searching {
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+.Searching-centered {
+    list-style-position: inside;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+}
+
+.Searching-centered li {
+    text-align: left;
+    margin: 0 20px;
+}
+
+@media (max-width: 720px) {
+    .SobreMim h2 {
+        margin-top: 30px; /* Ajusta o espaçamento superior para dispositivos móveis */
+        text-align: left; /* Alinha os h2 à esquerda */
+        margin-left: 0; /* Remove margem à esquerda */
+        display: block; /* Override flex display */
+    }
+}
