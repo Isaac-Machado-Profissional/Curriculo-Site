@@ -1,5 +1,5 @@
 //import SmoothScroll from "smooth-scroll"; 
-import '../css/style.css'; 
+import './extra/css/style.css'; 
 
 const loadedContent = new Set();
 let loadedCount = 0;

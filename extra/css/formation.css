@@ -1,9 +1,8 @@
 #articlegrid {
     display: grid;
-    grid-template-columns: auto auto; /* Duas colunas */
+    grid-template-columns: 1fr 1fr; /* Duas colunas */
     grid-template-rows: auto; /* Linhas automáticas */
     gap: 10px; /* Espaçamento entre os itens */
-    margin-left: -100px;
 }
 
 #secundarygrid {
@@ -18,9 +17,6 @@
     grid-row: 1;
     place-self: center; /* Centraliza o item horizontal e verticalmente */
     margin-top: -150px;
-    margin-left: -50px;
-    width: auto;
-    height: auto;
 }
 
 .svg-container-main2 {
@@ -28,7 +24,6 @@
     grid-row: 2;
     place-self: center; /* Centraliza o item horizontal e verticalmente */
     margin-top: -150px;
-    margin-left: -50px;
 }
 
 .svg-container-main3 {
@@ -36,7 +31,6 @@
     grid-row: 3;
     place-self: center; /* Centraliza o item horizontal e verticalmente */
     margin-top: -150px;
-    margin-left: -50px;
 }
 
 .svg-container-mini {
@@ -44,7 +38,6 @@
     grid-row: 1;
     place-self: center;
     margin-top: -150px;
-    margin-left: -50px;
 }
 
 #ensinosuperior {
@@ -89,14 +82,14 @@
 
     #articlegrid > * {
         font-size: 0.8rem; /* Decrease font size */
-        margin-left: 120px; /* Adjust margin */
-
+        margin: 5px; /* Adjust margin */
     }
 
     .svg-container-main, .svg-container-main2, .svg-container-main3, .svg-container-mini {
-        transform: scale(0.5);
+        width: 50px; /* Adjust width for mobile */
+        height: 50px; /* Adjust height for mobile */
         margin-top: 0; /* Adjust margin for mobile */
-        margin-left: 500px;
+        margin-left: 150px;
     }
 
     #ensinosuperior, #ensinomedio, #ensinofundamental {

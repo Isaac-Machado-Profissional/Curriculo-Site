@@ -13,6 +13,7 @@ body {
 /* Redefine o tamanho das fontes de títulos para garantir uniformidade */
 
 h2 {
+    font-weight: bold;
     font-size: 2rem; /*32px*/
 
 }

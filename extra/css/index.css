@@ -43,8 +43,10 @@ header {
 }
 
 .eumainHome {
-    width: 500px;
-    height: 500px;
+    width: 80vh; /* Ajusta a largura da imagem para 80% da largura da tela */
+    height: 80vh; /* Mantém a proporção da imagem */
+    max-width: 500px; /* Define um limite máximo de largura */
+    max-height: 60vh; /* Define um limite máximo de altura para 80% da altura da viewport */
     filter: drop-shadow(0 0 20px rgba(128, 0, 128, 0.5));
     box-shadow: 0 0 10px 5px rgba(23, 0, 128, 0.5);
     border-radius: 25%;
@@ -66,6 +68,7 @@ header {
 /* Estilo para a idade */
 .idade {
     margin: 0;
+    margin-left: 5px;
     margin-top: 5px; /* Adiciona espaço acima da idade */
     font-size: 12px; /* Tamanho pequeno para a idade */
     color: gray; /* Cor cinza para a idade */
@@ -126,9 +129,11 @@ header {
         flex-direction: column;
     }
     .eu-mainHome {
-        margin-top: 180px;
-        width: 80px;
-        height: 50px;
+        margin-top: 200px;
+        width: 110%;
+        height: auto;
+        max-height: auto;
+        max-width: auto;
     }
 
     .eu-titulo {
@@ -136,6 +141,14 @@ header {
         margin-bottom: 20px;
         text-align: center;
         font-size: bold;
+    }
+
+    .idade {
+        margin: 0;
+        margin-right: -200px;
+        margin-top: 5px; /* Adiciona espaço acima da idade */
+        font-size: 12px; /* Tamanho pequeno para a idade */
+        color: gray; /* Cor cinza para a idade */
     }
 
 }

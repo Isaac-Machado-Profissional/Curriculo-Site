@@ -11,27 +11,27 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: '../../index.html',
+      template: 'index.html',
     }),
     new HtmlWebpackPlugin({
-      template: '../../about-me.html',
+      template: 'about-me.html',
       filename: 'about-me.html',
     }),
     new HtmlWebpackPlugin({
-      template: '../../formation.html',
+      template: 'formation.html',
       filename: 'education.html',
     }),
     new HtmlWebpackPlugin({
-      template: '../../knowledge.html',
+      template: 'knowledge.html',
       filename: 'knowledge.html',
     }),
     new HtmlWebpackPlugin({
-      template: '../../contact.html',
+      template: 'contact.html',
       filename: 'contact.html',
     }),
     new CopyWebpackPlugin({
       patterns: [
-        { from: '../../images', to: 'images' },
+        { from: 'images', to: 'images' },
       ],
     
 })],

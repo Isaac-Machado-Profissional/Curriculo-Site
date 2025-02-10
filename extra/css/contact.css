@@ -33,32 +33,48 @@
 }
 
 .local-text {
+    transform: translateY(50%);
     grid-column: 1;
     grid-row: 1;
     align-self: center;
-    margin-left: 200px;
+    margin-left: 350px;
+    white-space: nowrap; /* Impede a quebra de linha */
+    overflow: hidden;      /* Oculta qualquer transbordamento de conteúdo */
+    text-overflow: ellipsis; /* Adiciona reticências ao final do texto */
 }
 
 .email-text {
+    transform: translateY(50%);
     grid-column: 1;
     grid-row: 2;
     align-self: center;
-    margin-left: 390px;
+    margin-left: 430px;
+    white-space: nowrap; /* Impede a quebra de linha */
+    overflow: hidden;      /* Oculta qualquer transbordamento de conteúdo */
+    text-overflow: ellipsis; /* Adiciona reticências ao final do texto */
 }
 
 .phone-text {
+    transform: translateY(50%);
     grid-column: 1;
     grid-row: 3;
     align-self: center;
-    margin-left: 210px;
+    margin-left: 330px;
+    white-space: nowrap; /* Impede a quebra de linha */
+    overflow: hidden;      /* Oculta qualquer transbordamento de conteúdo */
+    text-overflow: ellipsis; /* Adiciona reticências ao final do texto */
     
 }
 
 .github-text {
+    transform: translateY(50%);
     grid-column: 1;
     grid-row: 4;
     align-self: center;
-    margin-left: 300px;
+    margin-left: 505px;
+    white-space: nowrap; /* Impede a quebra de linha */
+    overflow: hidden;      /* Oculta qualquer transbordamento de conteúdo */
+    text-overflow: ellipsis; /* Adiciona reticências ao final do texto */
 }
 
 @media (max-width: 720px) {
@@ -78,21 +94,22 @@
     }
 
     .local-text {
-        font-size: 0.5rem; /* Ajusta o tamanho da fonte para textos */
-        margin-left: -60px;
+        font-size: 1.20vh; /* Ajusta o tamanho da fonte para textos */
+        margin-left: 50px;
     }
     .email-text {
-        font-size: 0.5rem; /* Ajusta o tamanho da fonte para textos */
-        margin-left: 60px
+        font-size: 1.20vh; /* Ajusta o tamanho da fonte para textos */
+        margin-left: 110px;
     }
     .phone-text {
-        font-size: 0.5rem; /* Ajusta o tamanho da fonte para textos */
-        margin-left: -14px;
+
+        font-size: 1.20vh; /* Ajusta o tamanho da fonte para textos */
+        margin-left: 50px;
     }
     .github-text {
-        font-size: 0.5rem; /* Ajusta o tamanho da fonte para textos */
-        margin-left: 60px;
-        text-align: left
+
+        font-size: 1.20vh; /* Ajusta o tamanho da fonte para textos */
+        margin-left: 165px;
     }
 }
 
