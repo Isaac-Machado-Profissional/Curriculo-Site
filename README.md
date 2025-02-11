@@ -1,19 +1,57 @@
-  # Curriculo-Site
-Esse é o meu site-currículo, onde você pode visualizar minhas experiências, conhecimentos,
-atuais objetivos profissionais e entender as formas de entrar em contato comigo. 
+  # Isaac-Machado.me
+_Esse é o meu site, onde você pode acompanhar a minha evolução como Desenvolvedor!_
 
-  ## GITHub Pages
-Este site estará hospedado usando [GitHub Pages](https://pages.github.com/)  
-Para visualizar o site, acesse: [http:/isaac-machado.me/Curriculo-Site](http://isaac-machado.me/Curriculo-Site)
+  ### [https://www.isaac-machado.me](https://wwww.isaac-machado.me) 
+  <br><br>
+  <br><br>
+  <br><br>
+  
 
   ## Instalação
-Caso decida trabalhar com este repo localmente, aqui está o código a ser usado:
-1. Clone o repositório:
-```bash
-git clone https://github.com/Isaac-Machado-Profissional/Curriculo-Site.git
-```
+Caso decida visualizar ou trabalhar com este repo localmente, aqui está o tutorial:
 
-## Esperando [24-48 horas para o meu novo domínio ficar em HTTPS.] 
--> isaac-machado.me
 
-É necessário aguardar para o novo DNS propagar na WWW. 
+- __Requisitos:__
+
+   - [Node.Js](https://nodejs.org/pt)
+    <br><br><br><br>
+
+- __Comandos:__
+
+  1. Clone o repositório:
+
+       _Para visualizar o código fonte do site em seu computador._
+
+      ```bash
+      git clone https://github.com/Isaac-Machado-Profissional/Curriculo-Site.git
+      ```
+  <br><br>
+
+  2. Instale as dependências do Node.js
+
+       _Para ter acesso ao JavaScript e suas bibliotecas._
+
+      ```bash
+      npm install
+      ```
+  <br><br>
+
+  3. Se desejar crie uma pasta dist(cópia opcional)
+
+      _Para empacotar uma cópia e fazer alterações pessoais, comparando-as facilmente._
+
+      ```bash
+      npm build 
+      ```
+  <br><br>
+
+  4. Rodar o servidor Localmente
+
+      _Abra a página e comece a rodar um servidor local em uma porta(8080) para visualizar suas alterações em tempo real[LOCAL]._
+
+     ```bash
+     npm start 
+     ```
+   
+     
+ 
