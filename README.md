@@ -15,4 +15,5 @@ git clone https://github.com/Isaac-Machado-Profissional/Curriculo-Site.git
 
 ## Esperando [24-48 horas para o meu novo domínio ficar em HTTPS.] 
 -> isaac-machado.me
+
 É necessário aguardar para o novo DNS propagar na WWW. 
