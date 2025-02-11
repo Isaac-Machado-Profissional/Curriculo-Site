@@ -23,7 +23,7 @@ Caso decida visualizar ou trabalhar com este repo localmente, aqui está o tutor
        _Para visualizar o código fonte do site em seu computador._
 
       ```bash
-      git clone https://github.com/Isaac-Machado-Profissional/Curriculo-Site.git
+      git clone https://github.com/Isaac-Machado-Profissional/Isaac-Machado-Profissional.github.io.git
       ```
   <br><br>
 
